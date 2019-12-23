@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import {
   CardHeader,
   CardBody,
@@ -46,11 +47,11 @@ const About = () => (
         <CardBodyExplaination>
           <div>
             <h2>Senior Advocate</h2>
-            <p>	Assisted individuals with developmental disabilities through teaching independent living/social skills, health/wellness, and better enjoyment of their everyday lives.
-	Ordered, administered, recorded and kept inventory of medications. 
-Routinely inspected and maintained company owned vehicles.
-Scheduled, attended, and documented medical appointments/changes in medication.
-Assisted individuals with personalized plans to improve their independent living skills. Documented their goals, progress, and organized their meetings with staff/nurse/job coach/family/guardian. Monitored spending of individuals for fraud and exploitation. Delegated responsibilities to daytime staff members. Helped plan recreational activities and vacations.
+            <p>	<li>Assisted individuals with developmental disabilities through teaching independent living/social skills, health/wellness, and better enjoyment of their everyday lives. </li>
+	<li>Ordered, administered, recorded and kept inventory of medications.</li>
+<li>Routinely inspected and maintained company owned vehicles.</li>
+<li>Scheduled, attended, and documented medical appointments/changes in medication.</li>
+<li>Assisted individuals with personalized plans to improve their independent living skills.</li> <li>Documented their goals, progress, and organized their meetings with staff/nurse/job coach/family/guardian.</li><li> Monitored spending of individuals for fraud and exploitation.</li> <li>Delegated responsibilities to daytime staff members, planned recreational activities and vacations.</li>
 </p>
            
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import { FooterGroup, FooterElement } from "../Shared/Footer";
 import { AccentedIcon } from "../Shared/All";
 
@@ -6,7 +7,7 @@ const Footer = () => {
   return (
     <FooterGroup>
       <AccentedIcon
-        href="mailto:Brian.Lynn.balynn077@gmail.com"
+        href="mailto:balynn077@gmail.com"
         brand="fas"
         logo="envelope"
         size="3"

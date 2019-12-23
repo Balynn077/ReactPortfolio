@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import { StyledNav } from "../Shared/Header";
 
 export default props => (
